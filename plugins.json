@@ -1,0 +1,25 @@
+{
+	"plugin_name": "COVID-19 Updater",
+	"plugin_scope": "covid19u",
+	"plugin_exec": "covid.js",
+	"command_map": {
+		"covid": {
+			"hargs": {
+				"vi_VN": "",
+				"en_US": ""
+			},
+			"hdesc": {
+				"vi_VN": "Xem số ca COVID-19 hiện tại ở VN và thế giới",
+				"en_US": "Show COVID-19 cases in VN and the world"
+			},
+			"fscope": "covid_get",
+			"compatibly": 0
+		}
+	},
+	"author": "UIRI",
+	"version": "1.0",
+	"node_depends": {
+		"node-fetch": ""
+	},
+	"complied_for": "0.3.0"
+}
